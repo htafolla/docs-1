@@ -172,9 +172,14 @@ npm -v
 
 ### Install near-cli 
 
-- This should work until I finish testing instructions (will install the main near-cli from near)
+- Install the GuildNet version of NEAR-Cli
 ```bash
-npm install -g near-cli
+git clone https://github.com/near-guildnet/near-cli
+
+cd near-cli
+
+# sudo may be needed.
+npm uninstall -g near-cli
 ```
 
 ## Setting up your environment
